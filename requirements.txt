@@ -1,5 +1,5 @@
 python_version < 3.12
-tensorflow==2.15.0
+tensorflow==2.20.0
 keras==2.15.0
 streamlit==1.52.1
 numpy<2
@@ -8,3 +8,4 @@ pandas
 nltk
 matplotlib
 tensorboard
+

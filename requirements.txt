@@ -1,12 +1,13 @@
 tensorflow
 keras>=3.10.0
-streamlit==1.52.1
-numpy<2
+streamlit
+numpy
 scikit-learn
 pandas
 nltk
 matplotlib
 tensorboard
+
 
 
 

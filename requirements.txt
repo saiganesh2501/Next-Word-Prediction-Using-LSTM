@@ -1,6 +1,5 @@
-python_version < 3.12
 tensorflow
-keras==2.15.0
+keras>=3.10.0
 streamlit==1.52.1
 numpy<2
 scikit-learn
@@ -8,5 +7,6 @@ pandas
 nltk
 matplotlib
 tensorboard
+
 
 

@@ -15,12 +15,14 @@ with open('tokenizer.pkl','rb')as file:
 with open("hamlet.txt", "r", encoding="utf-8") as f:
     hamlet_text = f.read()
 
-st.sidebar.title("Hamlet Text")
+st.sidebar.title("Hamlet Text File")
+
 st.sidebar.text_area(
-    label="",
+    label="Hamlet Text File",
     value=hamlet_text,
-    height=600
-)    
+    height=600,
+    label_visibility="collapsed"
+)  
 
 
 ## function to predict the next word
@@ -44,4 +46,5 @@ if st.button("Predict Next Word"):
     max_length_sequence=model.input_shape[1]+1
     next_word=predict_next_word(model,tokenizer,input_text,max_length_sequence)
     st.write(f"Input Text is: {input_text}")
+
     st.write(f"Predicted_Next_Word is: {next_word}")

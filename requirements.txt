@@ -1,5 +1,4 @@
 tensorflow
-keras>=3.10.0
 streamlit
 numpy
 scikit-learn
@@ -7,6 +6,8 @@ pandas
 nltk
 matplotlib
 tensorboard
+keras>=3.10.0
+
 
 
 
